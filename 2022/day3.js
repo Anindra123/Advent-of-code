@@ -1,5 +1,3 @@
-const getFileContents = require("./fileRead");
+const mod = require("./fileRead.js");
 
-const data = getFileContents.getFileContents();
-
-console.log(data);
+const data = mod;
