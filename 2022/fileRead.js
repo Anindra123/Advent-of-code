@@ -12,7 +12,7 @@ const sumArr = [];
 let fileName = prompt("Enter your file name :");
 
 const getFileContents = () => {
-  out = fs.readFileSync(`input.txt`, "utf8");
+  out = fs.readFileSync(`${fileName}`, "utf8");
   out = out.split(/\r?\n/);
   return out;
 };
